@@ -20,7 +20,7 @@ app.use("/api/v1", itemRoutes);
 app.use("/api/v1", categoryRoutes);
 
 // routes
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.send("Hello World!");
 });
 
